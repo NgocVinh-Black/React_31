@@ -83,10 +83,12 @@ h2{
 }
 .price_glasses {
   margin-top: 25px;
+  background-color: antiquewhite;
+width: 50%;
+margin-left: 160px;
 }
 .price_glasses p{
-  background-color: antiquewhite;
-  padding: 10px 123px;
+  width: 50%;
   margin-top: 300px;
   display: inline;
   font-weight: 800;
