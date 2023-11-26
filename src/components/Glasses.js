@@ -79,6 +79,7 @@ export default class Glasses extends Component {
       newArrGlasses = arrGlasses.map((item, index) => {
         return (
           <button
+            key={index}
             onClick={() => {
               this.setState({
                 newGlasses: item.url,
